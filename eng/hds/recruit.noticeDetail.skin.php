@@ -1,0 +1,68 @@
+<?php
+/***************************************************************
++ Page Name		: /skin/dc/kor/hdw/recruit.noticeDetail.skin.php
++ Description	: recruit.noticeDetail
+***************************************************************/
+if( !defined('_GNUBOARD_') )	EXIT;
+?>
+
+  <section class="subVisual visualCustomer">
+    <div class="innerWrap">
+      <div class="visualText">
+        <p>HYUNDAI SUPERTECK</p>
+        <h3>Careers</h3>
+      </div>
+    </div>
+  </section>
+
+
+<div class="subWrap">
+    <section class="leftFloating" id="leftFloating"></section>
+	<section class="subNavWrap" id="subNavPos">
+<?php if( isset($SubNav[0]) ){?>
+		<div class="subNav">
+			<p><?=$SubNav[0]['title']?></p>
+			<ul><?=$SubNav[0]['list']?></ul>
+		</div>
+<?php }?>
+<?php if( isset($SubNav[1]) ){?>
+		<div class="subNav">
+			<p><?=$SubNav[1]['title']?></p>
+			<ul><?=$SubNav[1]['list']?></ul>
+		</div>
+<?php }?>
+	</section>
+
+   <div class="subContent">
+      <section class="recruitDetailWrap">
+        <div class="innerWrap">
+          <div class="recruitDetail">
+            <div class="detailHeader">
+              <h3>
+				<?=stripslashes($Info['title'])?>
+				<?php if( days_return($Info['endDt']) > 0 ){?>
+					<span class="recuritDue c-gray">End</span>
+				<?php }else if( days_return($Info['endDt']) < 0 && days_return($Info['endDt']) > -4 ){?>
+					<span class="recuritDue ">D<?=days_return($Info['endDt'])?></span>
+				<?php }else{?>
+				<?php }?>
+              </h3>
+              <div>
+                <span><?=code_array('site',2,$Info['site'])?></span>
+                <span class="recruitCompany"><?=code_array('job',1,$Info['job'])?></span>
+                <span class="recruitCompany"><?=code_array('duty',1,$Info['duty'])?></span>
+              </div>
+              <div>
+                <span><?=substr($Info['startDt'],0,16)?> ~ <?=substr($Info['endDt'],0,16)?></span>
+              </div>
+            </div>
+			<?=nl2br(stripslashes($Info['content']))?>
+            <div class="detailft tac">
+              <a href="<?=$url?>" class="btn btn-lg btnLineBlue btn-round">List</a>
+              <a href="https://hyundaiweld.saramin.co.kr/main/index" class="btn btn-lg btnBlue btn-round" target="_blank">Apply</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  <!-- subWrap// -->

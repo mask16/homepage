@@ -1,0 +1,203 @@
+/*DMSans*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("DMSans-Regular.eot?") format("eot"),
+  url("DMSans-Regular.otf") format("opentype"),
+  url("DMSans-Regular.woff") format("woff"),
+  url("DMSans-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "DM Sans";
+  font-weight: 500;
+  font-style: normal;
+  src: url("DMSans-Medium.eot?") format("eot"),
+  url("DMSans-Medium.otf") format("opentype"),
+  url("DMSans-Medium.woff") format("woff"),
+  url("DMSans-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "DM Sans";
+  font-weight: 800;
+  font-style: normal;
+  src: url("DMSans-Bold.eot?") format("eot"),
+  url("DMSans-Bold.otf") format("opentype"),
+  url("DMSans-Bold.woff") format("woff"),
+  url("DMSans-Bold.woff2") format("woff2");
+}
+
+/*noto*/
+@font-face {
+  font-family: "Noto Sans Korean";
+  font-weight: 100;
+  font-style: normal;
+  src: url("NotoSans-Light.eot?") format("eot"),
+  url("NotoSans-Light.otf") format("opentype"),
+  url("NotoSans-Light.woff") format("woff"),
+  url("NotoSans-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans Korean";
+  font-weight: 300;
+  font-style: normal;
+  src: url("NotoSans-DemiLight.eot?") format("eot"),
+  url("NotoSans-DemiLight.otf") format("opentype"),
+  url("NotoSans-DemiLight.woff") format("woff"),
+  url("NotoSans-DemiLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans Korean";
+  font-weight: 400;
+  font-style: normal;
+  src: url("NotoSans-Regular.eot?") format("eot"),
+  url("NotoSans-Regular.otf") format("opentype"),
+  url("NotoSans-Regular.woff") format("woff"),
+  url("NotoSans-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans Korean";
+  font-weight: 600;
+  font-style: normal;
+  src: url("NotoSans-Medium.eot?") format("eot"),
+  url("NotoSans-Medium.otf") format("opentype"),
+  url("NotoSans-Medium.woff") format("woff"),
+  url("NotoSans-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Noto Sans Korean";
+  font-weight: 800;
+  font-style: normal;
+  src: url("NotoSans-Bold.eot?") format("eot"),
+  url("NotoSans-Bold.otf") format("opentype"),
+  url("NotoSans-Bold.woff") format("woff"),
+  url("NotoSans-Bold.woff2") format("woff2");
+}
+
+
+@font-face {
+  font-family: "Noto Sans Korean";
+  font-weight: 900;
+  font-style: normal;
+  src: url("NotoSans-Black.eot?") format("eot"),
+  url("NotoSans-Black.otf") format("opentype"),
+  url("NotoSans-Black.woff") format("woff"),
+  url("NotoSans-Black.woff2") format("woff2");
+}
+
+
+/*Manrope*/
+@font-face {
+  font-family: "NunitoSans";
+  font-weight: 300;
+  font-style: normal;
+  src: url("NunitoSans-ExtraLight.eot?") format("eot"),
+  url("NunitoSans-ExtraLight.otf") format("opentype"),
+  url("NunitoSans-ExtraLight.woff") format("woff"),
+  url("NunitoSans-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "NunitoSans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("NunitoSans-Regular.eot?") format("eot"),
+  url("NunitoSans-Regular.otf") format("opentype"),
+  url("NunitoSans-Regular.woff") format("woff"),
+  url("NunitoSans-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "NunitoSans";
+  font-weight: 800;
+  font-style: normal;
+  src: url("NunitoSans-Bold.eot?") format("eot"),
+  url("NunitoSans-Bold.otf") format("opentype"),
+  url("NunitoSans-Bold.woff") format("woff"),
+  url("NunitoSans-Bold.woff2") format("woff2");
+}
+
+
+@font-face {
+  font-family: "NunitoSans";
+  font-weight: 900;
+  font-style: normal;
+  src: url("NunitoSans-Black.eot?") format("eot"),
+  url("NunitoSans-Black.otf") format("opentype"),
+  url("NunitoSans-Black.woff") format("woff"),
+  url("NunitoSans-Black.woff2") format("woff2");
+}
+
+/* oswald-200 - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 200;
+  src: url('oswald-v39-latin-200.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('oswald-v39-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('oswald-v39-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+       url('oswald-v39-latin-200.woff') format('woff'), /* Modern Browsers */
+       url('oswald-v39-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('oswald-v39-latin-200.svg#Oswald') format('svg'); /* Legacy iOS */
+}
+/* oswald-300 - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: url('oswald-v39-latin-300.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('oswald-v39-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('oswald-v39-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('oswald-v39-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('oswald-v39-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('oswald-v39-latin-300.svg#Oswald') format('svg'); /* Legacy iOS */
+}
+/* oswald-regular - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url('oswald-v39-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('oswald-v39-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('oswald-v39-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('oswald-v39-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('oswald-v39-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('oswald-v39-latin-regular.svg#Oswald') format('svg'); /* Legacy iOS */
+}
+/* oswald-600 - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  src: url('oswald-v39-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('oswald-v39-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('oswald-v39-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('oswald-v39-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('oswald-v39-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('oswald-v39-latin-600.svg#Oswald') format('svg'); /* Legacy iOS */
+}
+/* oswald-700 - latin */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: url('oswald-v39-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('oswald-v39-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('oswald-v39-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('oswald-v39-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('oswald-v39-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('oswald-v39-latin-700.svg#Oswald') format('svg'); /* Legacy iOS */
+}

@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  word-wrap: break-word;
+  word-break: keep-all;
+}
+
+a, p, span, div, b {
+  word-wrap: break-word;
+  word-break: keep-all;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-size: 14px;
+  font-family: "Noto Sans SC","Noto Sans Korean", sans-serif;
+  font-weight: 400;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body:lang(en),
+p:lang(en),
+h1:lang(en),
+h2:lang(en),
+h3:lang(en),
+h4:lang(en),
+h5:lang(en),
+h6:lang(en),
+p:lang(en),
+div:lang(en),
+span:lang(en),
+a:lang(en) {
+  font-family: "Noto Sans SC", sans-serif !important;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+button {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+button:focus,
+button:active,
+a:focus,
+a:active {
+  outline: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*form 스타일 초기화*/
+input[type=text], input[type=password], input[type=email], input[type=number], input[type=phone], input[type=date], input[type=tel], textarea {
+  appearance: none;
+  -webkit-appearance: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  width: 100%;
+  outline: none;
+}
+
+input[type='search']::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+input[type=radio] {
+  appearance: none;
+  -webkit-appearance: none;
+  display: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+}

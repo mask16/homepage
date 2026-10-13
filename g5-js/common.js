@@ -1,0 +1,1 @@
+/* GNUBoard common.js stub for local preview */
